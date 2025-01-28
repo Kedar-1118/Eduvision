@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "degree": "SSC",
+    "university": "Chetana English Medium School",
+    "timePeriod": "June 2020 - April 2021",
+    "img": "images/HSC.jpeg"
+  },
+  {
+    "id": 2,
+    "degree": "HSC",
+    "university": "CSA",
+    "timePeriod": "June 2021 - April 2023",
+    "img": "images/HSC.jpeg"
+  },
+  {
+    "id": 2,
+    "degree": "B.Tech CSE",
+    "university": "Walchand College of Engineering",
+    "timePeriod": "August 2023 - May 2027",
+    "img": "images/walchand.png"
+  }
+]

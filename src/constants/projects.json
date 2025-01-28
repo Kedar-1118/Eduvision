@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "CoCreate",
+    "description": "CoCreate an Collaboration tool helpful to developers to collaborate with colleagues and client",
+    "thumbnail": "images/collaboration.jpeg",
+    "deployed": "",
+    "github": "https://github.com/Kedar-1118/CoCreate",
+    "date": "nov 2024"
+  },
+  {
+    "id": "2",
+    "title": "Weather Dashboard",
+    "description": "Weather Dashboard is a user-friendly web application that provides users with current weather",
+    "thumbnail": "images/weather.jpeg",
+    "deployed": "https://kedar-1118.github.io/Weather/",
+    "github": "https://github.com/Kedar-1118/Weather",
+    "date": "nov 2024"
+  },
+  {
+    "id": "3",
+    "title": "Trading",
+    "description": "Trading is a user-friendly web application that provides you with selective stocks with there graphs and day high and lows",
+    "thumbnail": "images/trading.jpg",
+    "deployed": "https://kedar-1118.github.io/Trading/",
+    "github": "https://github.com/Kedar-1118/Trading",
+    "date": "nov 2024"
+  }
+]
