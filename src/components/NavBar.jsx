@@ -26,16 +26,16 @@ export default function NavBar() {
 
   return (
     <header>
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800  fixed top-0 w-full z-50">
+      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-green-900  fixed top-0 w-full z-50">
         <div className="flex flex-wrap justify-between items-center p-1 mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
-              src="/dev-icon.svg"
+              src="./dist/17838.jpg"
               className="mr-3 h-6 sm:h-9"
               alt="dev logo"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Kedar Dhotre
+              Eduvision
             </span>
           </Link>
           <div className="flex items-center lg:order-2">
@@ -85,23 +85,19 @@ export default function NavBar() {
               <NavLink to="/about" onClick={toggleOpen}>
                 About
               </NavLink>
-              <NavLink to="/projects" onClick={toggleOpen}>
-                Projects
+              <NavLink to="/courses" onClick={toggleOpen}>
+                Courses
               </NavLink>
-              <NavLink to="/skills" onClick={toggleOpen}>
-                Skills
+              <NavLink to="/resources" onClick={toggleOpen}>
+                Resources
               </NavLink>
-              <NavLink to="/education" onClick={toggleOpen}>
-                Education
+              <NavLink to="/quiz" onClick={toggleOpen}>
+                Quiz
               </NavLink>
               <NavLink to="/contact" onClick={toggleOpen}>
                 Contact Me
               </NavLink>
-              {/* <li>
-                <a href="/baqla_resume.pdf" className={linkClasses}>
-                  Resume
-                </a>
-              </li> */}
+
             </ul>
           </div>
         </div>

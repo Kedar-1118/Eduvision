@@ -23,14 +23,14 @@ function App() {
       <Analytics />
       <ToastContainer />
       <Router>
-        <div className="bg-gray-300">
+        <div className="bg-black">
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/education" element={<Education />} />
+            <Route path="/courses" element={<Projects />} />
+            <Route path="/quiz" element={<Skills />} />
+            <Route path="/resources" element={<Education />} />
             <Route path="/contact" element={<ContactMe />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

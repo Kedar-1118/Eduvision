@@ -11,49 +11,40 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-500">
-      <div className="flex flex-col items-center justify-center py-2 px-2 sm:flex-row sm:justify-between sm:py-4 sm:px-6">
-        <span className="text-sm text-lightDesert sm:text-center">
-          © {CURRENT_YEAR}{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={PERSONAL_WEBSITE_URL}
-            className="hover:text-goldDesert transition-colors duration-300"
-          >
-            Kedar
-            <span className="sr-only">Kedar's personal website</span>
-          </a>
-        </span>
-        <div className="flex mt-2 space-x-6">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={GITHUB_URL}
-            className="text-lightDesert hover:text-goldDesert transition-colors duration-300"
-          >
-            <FaGithub className="w-5 h-5" />
-            <span className="sr-only">GitHub account</span>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={LINKEDIN_URL}
-            className="text-lightDesert hover:text-goldDesert transition-colors duration-300"
-          >
-            <FaLinkedin className="w-5 h-5" />
-            <span className="sr-only">LinkedIn account</span>
-          </a>
-          {/* <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={PERPLEXITY_URL}
-            className="text-lightDesert hover:text-goldDesert transition-colors duration-300"
-          >
-            <SiPerplexity className="w-5 h-5" />
-            <span className="sr-only">Perplexity Referral</span>
-          </a> */}
+    <footer className="bg-gray-800 text-white py-12 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h4 className="text-xl font-bold mb-4">Quick Links</h4>
+          <div className="flex flex-col gap-2">
+            {['FAQ', 'Privacy Policy', 'Terms of Service', 'Careers'].map((link) => (
+              <a key={link} href={`#${link}`} className="hover:text-[#e74c3c] transition-colors">
+                {link}
+              </a>
+            ))}
+          </div>
         </div>
+        <div>
+          <h4 className="text-xl font-bold mb-4">Contact</h4>
+          <p className="mb-2">support@eduvision.com</p>
+          <p>+1 (800) 123-4567</p>
+        </div>
+        <div>
+          <h4 className="text-xl font-bold mb-4">Follow Us</h4>
+          <div className="flex gap-4">
+            {['Facebook', 'Twitter', 'Instagram', 'LinkedIn'].map((social) => (
+              <a
+                key={social}
+                href={`#${social}`}
+                className="hover:text-[#e74c3c] transition-colors"
+              >
+                {social}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="mt-8 text-center text-gray-400">
+        <p>© 2023 EduVision Academy. All rights reserved.</p>
       </div>
     </footer>
   );

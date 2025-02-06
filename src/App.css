@@ -1,4 +1,10 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+}
+
+#skills {
+  padding-top: 250px;
+  padding-bottom: 250px;
 }

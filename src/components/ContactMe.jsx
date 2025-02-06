@@ -75,7 +75,7 @@ export default function ContactMe() {
   return (
     <animated.section
       id="contact-me"
-      className="flex flex-col items-center justify-center bg-gray-300 p-8 rounded-lg shadow-md min-h-screen"
+      className="flex flex-col items-center justify-center bg-black p-8 rounded-lg shadow-md min-h-screen"
       style={contactSpring}
     >
       <div className="w-full max-w-md">
