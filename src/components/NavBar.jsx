@@ -30,7 +30,7 @@ export default function NavBar() {
         <div className="flex flex-wrap justify-between items-center p-1 mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
-              src="./dist/17838.jpg"
+              src="src\assets\17838.jpg"
               className="mr-3 h-6 sm:h-9"
               alt="dev logo"
             />
